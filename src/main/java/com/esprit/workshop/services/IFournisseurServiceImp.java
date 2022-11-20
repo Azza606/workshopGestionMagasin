@@ -12,13 +12,7 @@ import java.util.List;
 @Service
 @AllArgsConstructor
 public class IFournisseurServiceImp implements IFournisseurService {
-    private  final FournisseurRepository fournisseurRepository;
-    private final PorduitRepository porduitRepository;
 
-    /*@Override
-    public void assignFournisseurToProduit(Long fournisseurId, Long produitId) {
 
-        Produit produit= porduitRepository.findById(produitId).orElse(null);
-        Fournisseur fournisseur = fournisseurRepository.findById(fournisseurId).orElse(null);
-    }*/
+
 }
